@@ -16,6 +16,7 @@
 		406271E7287414FB0063876D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406271E6287414FB0063876D /* LaunchScreen.storyboard */; };
 		406271EE287423130063876D /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406271ED287423130063876D /* Nunito-VariableFont_wght.ttf */; };
 		406271F128742A3F0063876D /* IncidentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271F028742A3F0063876D /* IncidentView.swift */; };
+		406271FE287453850063876D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271FD287453850063876D /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		406271EC287421E60063876D /* Momo-Meter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Momo-Meter-Info.plist"; sourceTree = SOURCE_ROOT; };
 		406271ED287423130063876D /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		406271F028742A3F0063876D /* IncidentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentView.swift; sourceTree = "<group>"; };
+		406271FD287453850063876D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				406271D42874141D0063876D /* AuthenticationView.swift */,
+				406271FD287453850063876D /* TabBarView.swift */,
 				406271F228742B160063876D /* Incident */,
 			);
 			path = Views;
@@ -192,6 +195,7 @@
 				406271E5287414B60063876D /* DataController.swift in Sources */,
 				406271D52874141D0063876D /* AuthenticationView.swift in Sources */,
 				406271D32874141D0063876D /* Momo_MeterApp.swift in Sources */,
+				406271FE287453850063876D /* TabBarView.swift in Sources */,
 				406271F128742A3F0063876D /* IncidentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,19 +19,33 @@ struct IncidentView: View {
                 .frame(width: 350, height: 200, alignment: .center)
                 .cornerRadius(15)
             
-            Spacer(minLength: 20)
+            Spacer(minLength: 15)
             
-            Button {
-                //MARK:- Add
-                
-            } label: {
-                Text("Add Incident")
-                    .font(.title2)
-                    .padding()
-                    .frame(width: 330, height: 50, alignment: .center)
-                    .background(Color.accentColor)
-                    .foregroundColor(.white)
-                    .cornerRadius(15)
+            HStack {
+                Button {
+                    //MARK:- Add
+                    
+                } label: {
+                    Text("Add Fight")
+                        .font(.title2)
+                        .padding()
+                        .frame(width: 165, height: 50, alignment: .center)
+                        .background(Color.accentColor)
+                        .foregroundColor(.white)
+                        .cornerRadius(15)
+            }
+                Button {
+                    //MARK:- Add
+                    
+                } label: {
+                    Text("Add Cutiness")
+                        .font(.title2)
+                        .padding()
+                        .frame(width: 165, height: 50, alignment: .center)
+                        .background(Color.accentColor)
+                        .foregroundColor(.white)
+                        .cornerRadius(15)
+            }
             }
             
             Spacer(minLength: 20)

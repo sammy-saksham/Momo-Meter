@@ -9,7 +9,7 @@ import SwiftUI
 import LocalAuthentication
 
 struct AuthenticationView: View {
-    @State private var authenticated: Bool = false
+    @State private var authenticated: Bool = true
     
     private func authenticate() {
         let context = LAContext()
@@ -63,7 +63,7 @@ struct AuthenticationView: View {
                     
                     if authenticated {
                         NavigationLink {
-                            IncidentView()
+                            TabBarView()
                         } label: {
                             Text("Proceed")
                                 .font(.title2)
@@ -74,7 +74,8 @@ struct AuthenticationView: View {
                         }
                     } else {
                         Button {
-                            authenticate()
+//                            authenticate()
+                            authenticated.toggle()
                         } label: {
                             Text("Authenticate")
                                 .font(.title2)
