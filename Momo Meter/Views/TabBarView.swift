@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TabBarView: View {
-    @State private var screenShowing: Int = 0
+    @State private var screenShowing: Bool = false
     
     init() {
         UISegmentedControl.appearance().selectedSegmentTintColor = UIColor(Color.accentColor)
@@ -18,13 +18,24 @@ struct TabBarView: View {
     
     var body: some View {
         VStack {
-            IncidentView()
+            
+            if !screenShowing {
+                IncidentView()
+                    .transition(.asymmetric(insertion: .move(edge: .leading), removal: .move(edge: .trailing)))
+                    .animation(.easeInOut)
+            } else {
+                Text("Food")
+                    .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
+                    .animation(.easeInOut)
+            }
+            
+            Spacer()
             
             Picker("Select Screen", selection: $screenShowing) {
                 Text("Incidents")
-                    .tag(0)
+                    .tag(false)
                 Text("Food")
-                    .tag(1)
+                    .tag(true)
             }
             .pickerStyle(SegmentedPickerStyle())
             .frame(width: 350, height: 70, alignment: .center)
