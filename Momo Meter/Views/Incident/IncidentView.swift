@@ -21,15 +21,6 @@ struct IncidentView: View {
             
             Spacer(minLength: 20)
             
-            List {
-                ForEach(0...10, id: \.self) { test in
-                    Text("Test")
-                }
-            }
-            .listStyle(.inset)
-            
-            Spacer(minLength: 20)
-            
             Button {
                 //MARK:- Add
                 
@@ -42,6 +33,15 @@ struct IncidentView: View {
                     .foregroundColor(.white)
                     .cornerRadius(15)
             }
+            
+            Spacer(minLength: 20)
+            
+            List {
+                ForEach(0...10, id: \.self) { test in
+                    Text("Test")
+                }
+            }
+            .listStyle(.inset)
         }
         .navigationBarHidden(true)
     }
