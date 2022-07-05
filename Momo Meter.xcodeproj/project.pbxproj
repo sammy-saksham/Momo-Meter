@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		406271D32874141D0063876D /* Momo_MeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271D22874141D0063876D /* Momo_MeterApp.swift */; };
+		406271D52874141D0063876D /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271D42874141D0063876D /* AuthenticationView.swift */; };
+		406271D72874141F0063876D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406271D62874141F0063876D /* Assets.xcassets */; };
+		406271DA2874141F0063876D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406271D92874141F0063876D /* Preview Assets.xcassets */; };
+		406271E22874148E0063876D /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 406271E02874148E0063876D /* DataModel.xcdatamodeld */; };
+		406271E5287414B60063876D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271E4287414B60063876D /* DataController.swift */; };
+		406271E7287414FB0063876D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406271E6287414FB0063876D /* LaunchScreen.storyboard */; };
+		406271EE287423130063876D /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406271ED287423130063876D /* Nunito-VariableFont_wght.ttf */; };
+		406271F128742A3F0063876D /* IncidentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271F028742A3F0063876D /* IncidentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		406271CF2874141D0063876D /* Momo Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Momo Meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		406271D22874141D0063876D /* Momo_MeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Momo_MeterApp.swift; sourceTree = "<group>"; };
+		406271D42874141D0063876D /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		406271D62874141F0063876D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		406271D92874141F0063876D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		406271E12874148E0063876D /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		406271E4287414B60063876D /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		406271E6287414FB0063876D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		406271EC287421E60063876D /* Momo-Meter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Momo-Meter-Info.plist"; sourceTree = SOURCE_ROOT; };
+		406271ED287423130063876D /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		406271F028742A3F0063876D /* IncidentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406271CC2874141D0063876D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		406271C62874141D0063876D = {
+			isa = PBXGroup;
+			children = (
+				406271E6287414FB0063876D /* LaunchScreen.storyboard */,
+				406271E02874148E0063876D /* DataModel.xcdatamodeld */,
+				406271D12874141D0063876D /* Momo Meter */,
+				406271D02874141D0063876D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		406271D02874141D0063876D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				406271CF2874141D0063876D /* Momo Meter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		406271D12874141D0063876D /* Momo Meter */ = {
+			isa = PBXGroup;
+			children = (
+				406271EC287421E60063876D /* Momo-Meter-Info.plist */,
+				406271D22874141D0063876D /* Momo_MeterApp.swift */,
+				406271E828741E0C0063876D /* Views */,
+				406271E3287414A50063876D /* Controllers */,
+				406271E92874215E0063876D /* Fonts */,
+				406271D62874141F0063876D /* Assets.xcassets */,
+				406271D82874141F0063876D /* Preview Content */,
+			);
+			path = "Momo Meter";
+			sourceTree = "<group>";
+		};
+		406271D82874141F0063876D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				406271D92874141F0063876D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		406271E3287414A50063876D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				406271E4287414B60063876D /* DataController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		406271E828741E0C0063876D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				406271D42874141D0063876D /* AuthenticationView.swift */,
+				406271F228742B160063876D /* Incident */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		406271E92874215E0063876D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				406271ED287423130063876D /* Nunito-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		406271F228742B160063876D /* Incident */ = {
+			isa = PBXGroup;
+			children = (
+				406271F028742A3F0063876D /* IncidentView.swift */,
+			);
+			path = Incident;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406271CE2874141D0063876D /* Momo Meter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406271DD2874141F0063876D /* Build configuration list for PBXNativeTarget "Momo Meter" */;
+			buildPhases = (
+				406271CB2874141D0063876D /* Sources */,
+				406271CC2874141D0063876D /* Frameworks */,
+				406271CD2874141D0063876D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Momo Meter";
+			productName = "Momo Meter";
+			productReference = 406271CF2874141D0063876D /* Momo Meter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		406271C72874141D0063876D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					406271CE2874141D0063876D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 406271CA2874141D0063876D /* Build configuration list for PBXProject "Momo Meter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 406271C62874141D0063876D;
+			productRefGroup = 406271D02874141D0063876D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406271CE2874141D0063876D /* Momo Meter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		406271CD2874141D0063876D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406271EE287423130063876D /* Nunito-VariableFont_wght.ttf in Resources */,
+				406271E7287414FB0063876D /* LaunchScreen.storyboard in Resources */,
+				406271DA2874141F0063876D /* Preview Assets.xcassets in Resources */,
+				406271D72874141F0063876D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406271CB2874141D0063876D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406271E22874148E0063876D /* DataModel.xcdatamodeld in Sources */,
+				406271E5287414B60063876D /* DataController.swift in Sources */,
+				406271D52874141D0063876D /* AuthenticationView.swift in Sources */,
+				406271D32874141D0063876D /* Momo_MeterApp.swift in Sources */,
+				406271F128742A3F0063876D /* IncidentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		406271DB2874141F0063876D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		406271DC2874141F0063876D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		406271DE2874141F0063876D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Momo Meter/Preview Content\"";
+				DEVELOPMENT_TEAM = XB6455A525;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Momo-Meter-Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID required to protect sensitive information.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saksham.Momo-Meter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		406271DF2874141F0063876D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Momo Meter/Preview Content\"";
+				DEVELOPMENT_TEAM = XB6455A525;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Momo-Meter-Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID required to protect sensitive information.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saksham.Momo-Meter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406271CA2874141D0063876D /* Build configuration list for PBXProject "Momo Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406271DB2874141F0063876D /* Debug */,
+				406271DC2874141F0063876D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406271DD2874141F0063876D /* Build configuration list for PBXNativeTarget "Momo Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406271DE2874141F0063876D /* Debug */,
+				406271DF2874141F0063876D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		406271E02874148E0063876D /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				406271E12874148E0063876D /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 406271E12874148E0063876D /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 406271C72874141D0063876D /* Project object */;
+}
