@@ -55,8 +55,11 @@ struct IncidentView: View {
             Spacer(minLength: 20)
             
             List {
-                ForEach(0...10, id: \.self) { test in
-                    Text("Test")
+                ForEach(incidents, id: \.self) { incident in
+                    IncidentItemView(incident: incident)
+                        .cornerRadius(15)
+                        .listRowSeparator(.hidden)
+                    
                 }
             }
             .listStyle(.inset)
@@ -68,7 +71,7 @@ struct IncidentView: View {
         .sheet(isPresented: $showCutinessSheet) {
             AddCutinessView(isShowing: $showCutinessSheet)
         }
-
+        
     }
 }
 

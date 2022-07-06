@@ -19,6 +19,7 @@
 		406271FE287453850063876D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271FD287453850063876D /* TabBarView.swift */; };
 		40627200287493DE0063876D /* AddFightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271FF287493DE0063876D /* AddFightView.swift */; };
 		4062720228753FB00063876D /* AddCutinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062720128753FAF0063876D /* AddCutinessView.swift */; };
+		4062720428757AEA0063876D /* IncidentItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062720328757AEA0063876D /* IncidentItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		406271FD287453850063876D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		406271FF287493DE0063876D /* AddFightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFightView.swift; sourceTree = "<group>"; };
 		4062720128753FAF0063876D /* AddCutinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCutinessView.swift; sourceTree = "<group>"; };
+		4062720328757AEA0063876D /* IncidentItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				406271F028742A3F0063876D /* IncidentView.swift */,
 				406271FF287493DE0063876D /* AddFightView.swift */,
 				4062720128753FAF0063876D /* AddCutinessView.swift */,
+				4062720328757AEA0063876D /* IncidentItemView.swift */,
 			);
 			path = Incident;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				406271E5287414B60063876D /* DataController.swift in Sources */,
 				406271D52874141D0063876D /* AuthenticationView.swift in Sources */,
 				406271D32874141D0063876D /* Momo_MeterApp.swift in Sources */,
+				4062720428757AEA0063876D /* IncidentItemView.swift in Sources */,
 				406271FE287453850063876D /* TabBarView.swift in Sources */,
 				406271F128742A3F0063876D /* IncidentView.swift in Sources */,
 			);
