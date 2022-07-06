@@ -11,6 +11,9 @@ struct IncidentView: View {
     @Environment(\.managedObjectContext) var managedObjectContext
     @FetchRequest(sortDescriptors: []) var incidents: FetchedResults<Incident>
     
+    @State private var showFightSheet: Bool = false
+    @State private var showCutinessSheet: Bool = false
+    
     var body: some View {
         VStack {
             Spacer(minLength: 30)
@@ -24,7 +27,7 @@ struct IncidentView: View {
             HStack {
                 Button {
                     //MARK:- Add
-                    
+                    showFightSheet.toggle()
                 } label: {
                     Text("Add Fight")
                         .font(.title2)
@@ -33,10 +36,11 @@ struct IncidentView: View {
                         .background(Color.accentColor)
                         .foregroundColor(.white)
                         .cornerRadius(15)
-            }
+                }
+                
                 Button {
                     //MARK:- Add
-                    
+                    showCutinessSheet.toggle()
                 } label: {
                     Text("Add Cutiness")
                         .font(.title2)
@@ -45,7 +49,7 @@ struct IncidentView: View {
                         .background(Color.accentColor)
                         .foregroundColor(.white)
                         .cornerRadius(15)
-            }
+                }
             }
             
             Spacer(minLength: 20)
@@ -58,11 +62,18 @@ struct IncidentView: View {
             .listStyle(.inset)
         }
         .navigationBarHidden(true)
+        .sheet(isPresented: $showFightSheet) {
+            AddFightView(isShowing: $showFightSheet)
+        }
+        .sheet(isPresented: $showCutinessSheet) {
+            AddCutinessView(isShowing: $showCutinessSheet)
+        }
+
     }
 }
 
 //struct IncidentView_Previews: PreviewProvider {
 //    static var previews: some View {
-//        IncidentView()
+//        return IncidentView().environment(\.managedObjectContext, DataController().container.viewContext)
 //    }
 //}

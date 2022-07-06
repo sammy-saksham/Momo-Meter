@@ -17,6 +17,8 @@
 		406271EE287423130063876D /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406271ED287423130063876D /* Nunito-VariableFont_wght.ttf */; };
 		406271F128742A3F0063876D /* IncidentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271F028742A3F0063876D /* IncidentView.swift */; };
 		406271FE287453850063876D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271FD287453850063876D /* TabBarView.swift */; };
+		40627200287493DE0063876D /* AddFightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271FF287493DE0063876D /* AddFightView.swift */; };
+		4062720228753FB00063876D /* AddCutinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062720128753FAF0063876D /* AddCutinessView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		406271ED287423130063876D /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		406271F028742A3F0063876D /* IncidentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentView.swift; sourceTree = "<group>"; };
 		406271FD287453850063876D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		406271FF287493DE0063876D /* AddFightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFightView.swift; sourceTree = "<group>"; };
+		4062720128753FAF0063876D /* AddCutinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCutinessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				406271F028742A3F0063876D /* IncidentView.swift */,
+				406271FF287493DE0063876D /* AddFightView.swift */,
+				4062720128753FAF0063876D /* AddCutinessView.swift */,
 			);
 			path = Incident;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				406271E22874148E0063876D /* DataModel.xcdatamodeld in Sources */,
+				40627200287493DE0063876D /* AddFightView.swift in Sources */,
+				4062720228753FB00063876D /* AddCutinessView.swift in Sources */,
 				406271E5287414B60063876D /* DataController.swift in Sources */,
 				406271D52874141D0063876D /* AuthenticationView.swift in Sources */,
 				406271D32874141D0063876D /* Momo_MeterApp.swift in Sources */,

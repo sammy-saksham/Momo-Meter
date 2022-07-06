@@ -18,7 +18,6 @@ struct TabBarView: View {
     
     var body: some View {
         VStack {
-            
             if !screenShowing {
                 IncidentView()
                     .transition(.asymmetric(insertion: .move(edge: .leading), removal: .move(edge: .trailing)))
@@ -29,16 +28,17 @@ struct TabBarView: View {
                     .animation(.easeInOut)
             }
             
-            Spacer()
+            Spacer(minLength: 30)
             
             Picker("Select Screen", selection: $screenShowing) {
-                Text("Incidents")
+                Image(systemName: "list.triangle")
                     .tag(false)
-                Text("Food")
+                Image(systemName: "fork.knife")
                     .tag(true)
             }
+            .frame(width: 350, alignment: .center)
             .pickerStyle(SegmentedPickerStyle())
-            .frame(width: 350, height: 70, alignment: .center)
+            
         }
     }
 }
