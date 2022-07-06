@@ -28,7 +28,7 @@ struct TabBarView: View {
                     .animation(.easeInOut)
             }
             
-            Spacer(minLength: 30)
+            Spacer(minLength: 20)
             
             Picker("Select Screen", selection: $screenShowing) {
                 Image(systemName: "list.triangle")

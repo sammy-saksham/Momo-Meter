@@ -20,6 +20,10 @@
 		40627200287493DE0063876D /* AddFightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406271FF287493DE0063876D /* AddFightView.swift */; };
 		4062720228753FB00063876D /* AddCutinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062720128753FAF0063876D /* AddCutinessView.swift */; };
 		4062720428757AEA0063876D /* IncidentItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062720328757AEA0063876D /* IncidentItemView.swift */; };
+		408049B628758577009C5364 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 408049B528758577009C5364 /* SwiftUICharts */; };
+		408049B82875864F009C5364 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408049B72875864F009C5364 /* BarView.swift */; };
+		408049BB28758689009C5364 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408049BA28758689009C5364 /* BarChartView.swift */; };
+		408049BF28758C8A009C5364 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408049BE28758C8A009C5364 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,9 @@
 		406271FF287493DE0063876D /* AddFightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFightView.swift; sourceTree = "<group>"; };
 		4062720128753FAF0063876D /* AddCutinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCutinessView.swift; sourceTree = "<group>"; };
 		4062720328757AEA0063876D /* IncidentItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentItemView.swift; sourceTree = "<group>"; };
+		408049B72875864F009C5364 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		408049BA28758689009C5364 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		408049BE28758C8A009C5364 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				408049B628758577009C5364 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +110,8 @@
 		406271E828741E0C0063876D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				408049B928758660009C5364 /* Elements */,
 				406271D42874141D0063876D /* AuthenticationView.swift */,
-				406271FD287453850063876D /* TabBarView.swift */,
 				406271F228742B160063876D /* Incident */,
 			);
 			path = Views;
@@ -128,6 +136,17 @@
 			path = Incident;
 			sourceTree = "<group>";
 		};
+		408049B928758660009C5364 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				406271FD287453850063876D /* TabBarView.swift */,
+				408049B72875864F009C5364 /* BarView.swift */,
+				408049BA28758689009C5364 /* BarChartView.swift */,
+				408049BE28758C8A009C5364 /* ChartView.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +163,9 @@
 			dependencies = (
 			);
 			name = "Momo Meter";
+			packageProductDependencies = (
+				408049B528758577009C5364 /* SwiftUICharts */,
+			);
 			productName = "Momo Meter";
 			productReference = 406271CF2874141D0063876D /* Momo Meter.app */;
 			productType = "com.apple.product-type.application";
@@ -172,6 +194,9 @@
 				Base,
 			);
 			mainGroup = 406271C62874141D0063876D;
+			packageReferences = (
+				408049B428758577009C5364 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
 			productRefGroup = 406271D02874141D0063876D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -201,14 +226,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				406271E22874148E0063876D /* DataModel.xcdatamodeld in Sources */,
+				408049BF28758C8A009C5364 /* ChartView.swift in Sources */,
 				40627200287493DE0063876D /* AddFightView.swift in Sources */,
 				4062720228753FB00063876D /* AddCutinessView.swift in Sources */,
 				406271E5287414B60063876D /* DataController.swift in Sources */,
+				408049B82875864F009C5364 /* BarView.swift in Sources */,
 				406271D52874141D0063876D /* AuthenticationView.swift in Sources */,
 				406271D32874141D0063876D /* Momo_MeterApp.swift in Sources */,
 				4062720428757AEA0063876D /* IncidentItemView.swift in Sources */,
 				406271FE287453850063876D /* TabBarView.swift in Sources */,
 				406271F128742A3F0063876D /* IncidentView.swift in Sources */,
+				408049BB28758689009C5364 /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +443,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		408049B428758577009C5364 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AfrazCodes/SwiftUICharts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		408049B528758577009C5364 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 408049B428758577009C5364 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		406271E02874148E0063876D /* DataModel.xcdatamodeld */ = {
