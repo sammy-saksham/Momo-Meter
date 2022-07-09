@@ -19,7 +19,6 @@ struct IncidentView: View {
     
     var body: some View {
         VStack {
-            
             ChartView(DataPoints: populate(category: categoryIsFight ? "Fight" : "Cutiness"), category: categoryIsFight ? "Fight" : "Cutiness")
                 .padding()
                 .onTapGesture {
@@ -63,7 +62,6 @@ struct IncidentView: View {
                     IncidentItemView(incident: incident)
                         .cornerRadius(15)
                         .listRowSeparator(.hidden)
-                    
                 }
             }
             .listStyle(.inset)

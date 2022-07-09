@@ -19,6 +19,7 @@ struct IncidentItemView: View {
             VStack(alignment: .leading) {
                 Text(incident.desc ?? "Unknown")
                     .fontWeight(.semibold)
+                    .lineLimit(2)
                 Text(incident.occuredOn ?? Date.distantPast, style: .date)
                     .font(.caption)
             }

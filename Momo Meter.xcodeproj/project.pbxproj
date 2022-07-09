@@ -24,6 +24,9 @@
 		408049B82875864F009C5364 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408049B72875864F009C5364 /* BarView.swift */; };
 		408049BB28758689009C5364 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408049BA28758689009C5364 /* BarChartView.swift */; };
 		408049BF28758C8A009C5364 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408049BE28758C8A009C5364 /* ChartView.swift */; };
+		40D637EB2879747E00CC2501 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D637EA2879747E00CC2501 /* FoodView.swift */; };
+		40D637EF28797FE900CC2501 /* AddFoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D637EE28797FE900CC2501 /* AddFoodItemView.swift */; };
+		40D637F12879856100CC2501 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D637F02879856100CC2501 /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		408049B72875864F009C5364 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
 		408049BA28758689009C5364 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		408049BE28758C8A009C5364 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		40D637EA2879747E00CC2501 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		40D637EE28797FE900CC2501 /* AddFoodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodItemView.swift; sourceTree = "<group>"; };
+		40D637F02879856100CC2501 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +116,9 @@
 		406271E828741E0C0063876D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				408049B928758660009C5364 /* Elements */,
 				406271D42874141D0063876D /* AuthenticationView.swift */,
+				408049B928758660009C5364 /* Elements */,
+				40D637E92879746B00CC2501 /* Food */,
 				406271F228742B160063876D /* Incident */,
 			);
 			path = Views;
@@ -143,8 +150,18 @@
 				408049B72875864F009C5364 /* BarView.swift */,
 				408049BA28758689009C5364 /* BarChartView.swift */,
 				408049BE28758C8A009C5364 /* ChartView.swift */,
+				40D637F02879856100CC2501 /* SliderView.swift */,
 			);
 			path = Elements;
+			sourceTree = "<group>";
+		};
+		40D637E92879746B00CC2501 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				40D637EA2879747E00CC2501 /* FoodView.swift */,
+				40D637EE28797FE900CC2501 /* AddFoodItemView.swift */,
+			);
+			path = Food;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D637EB2879747E00CC2501 /* FoodView.swift in Sources */,
 				406271E22874148E0063876D /* DataModel.xcdatamodeld in Sources */,
 				408049BF28758C8A009C5364 /* ChartView.swift in Sources */,
 				40627200287493DE0063876D /* AddFightView.swift in Sources */,
@@ -233,6 +251,8 @@
 				408049B82875864F009C5364 /* BarView.swift in Sources */,
 				406271D52874141D0063876D /* AuthenticationView.swift in Sources */,
 				406271D32874141D0063876D /* Momo_MeterApp.swift in Sources */,
+				40D637F12879856100CC2501 /* SliderView.swift in Sources */,
+				40D637EF28797FE900CC2501 /* AddFoodItemView.swift in Sources */,
 				4062720428757AEA0063876D /* IncidentItemView.swift in Sources */,
 				406271FE287453850063876D /* TabBarView.swift in Sources */,
 				406271F128742A3F0063876D /* IncidentView.swift in Sources */,
